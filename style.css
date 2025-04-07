@@ -29,3 +29,11 @@ body {
   z-index: 1000;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #FAF33E;
+  text-transform: uppercase;
+  animation: glow 2s infinite alternate;
+}
