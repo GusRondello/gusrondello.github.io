@@ -8,8 +8,24 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background: linear-gradient(135deg, #1e1e2f, #2a2a40);
+  background: linear-gradient(135deg, #161616, #2D2D2D);
   color: #fff;
   height: 100vh;
   overflow-x: hidden;
+}
+
+/* Barra de Menu */
+
+.barra-de-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  /* backgroud? rgba(0, 0, 0, 0.7); */
+  background-color: lightblue;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
