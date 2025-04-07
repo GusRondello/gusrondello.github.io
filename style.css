@@ -37,3 +37,10 @@ body {
   text-transform: uppercase;
   animation: glow 2s infinite alternate;
 }
+
+.barra-de-menu nav ul li a {
+   text-decoration: none;
+   color: #fff;
+   font-size: 1rem;
+   transition: color 0.3s ease, transform 0.3s ease;
+}
