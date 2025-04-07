@@ -1,0 +1,15 @@
+/* Reset Geral */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #1e1e2f, #2a2a40);
+  color: #fff;
+  height: 100vh;
+  overflow-x: hidden;
+}
