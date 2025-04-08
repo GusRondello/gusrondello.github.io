@@ -7,8 +7,32 @@
 }
 
 :root{
-  --dark-bg:#2D2D2D;
-  --darker-bg:#161616;
+  --dark-bg:#171717;
+  --darker-bg:#0c0c0c ;
   --accent: #9809F6;
   --accent-glow: rgba(88, 14, 167, 0.4);
+  --text: #f8f8ff;
+}
+
+body{
+  background-color: var(--dark-bg);
+  color: var(--text);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* Navegação*/
+
+.navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 1.5rem, 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--darker-bg);
+  backdrop-filter: blur(10px);
+  z-index: 100;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
