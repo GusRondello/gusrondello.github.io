@@ -6,3 +6,9 @@
   box-sizing: border-box;
 }
 
+:root{
+  --dark-bg:#2D2D2D;
+  --darker-bg:#161616;
+  --accent: #9809F6;
+  --accent-glow: rgba(88, 14, 167, 0.4);
+}
