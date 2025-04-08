@@ -72,7 +72,7 @@ body{
   display: flex;
   align-items: center;
   padding: 12% 5%;
-  background: radial-gradient(circle at 60% 50%, var(--accent-glow) 0%, transparent 30%);
+  background: radial-gradient(circle at 75% 35%, var(--accent-glow) 0%, transparent 30%);
 }
 
 .hero-content {
@@ -103,4 +103,31 @@ body{
   50% {
     transform: translateY(-20px);
   }
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(45deg, var(--text) 10%, var(--accent) 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+  max-width: 600px;
+}
+
+.ctt-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: linear-gradient(45deg, var(--accent), var(--accent-glow));
+  color: var(--text);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
 }
