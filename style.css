@@ -22,13 +22,13 @@ body{
   overflow-x: hidden;
 }
 
-/* Navegação*/
+/* Navegação */
 
 .navbar {
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 1.5rem, 5%;
+  padding: 1.5rem 5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -176,4 +176,60 @@ body{
   font-size: 2.5rem;
   color: var(--accent);
   margin-bottom: 1rem;
+}
+
+/* Footer */
+
+footer {
+  background: var(--darker-bg);
+  padding: 3rem;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.social-links {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.social-links a {
+  color: var(--text);
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.social-links a:hover { 
+  color: var(--accent);
+  transform: translateY(-3px);
+}
+
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 8rem;
+  }
+  
+  .hero-content {
+    padding-right: 0;
+    margin-bottom: 3rem;
+  }
+
+  .img-profile {
+    width: 280px;
+    height: 280px;
+  }
+
+  .nav-links { 
+    display: none;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+    padding-left: 2rem;
+  }
+
 }
